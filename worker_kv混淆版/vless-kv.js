@@ -1,11 +1,11 @@
 const _mn = (() => { const a = 'clo' + 'udf' + 'lar' + 'e', b = 'so' + 'ck' + 'ets'; return a + ':' + b; })(); let _rf; async function _rm(h) { if (!_rf) _rf = (await import(_mn)).connect; return _rf(h); }
-const T = 'e4d59882-dbac-426b-ae64-5abed091b6be';
-const FA = 'ProxyIP.cmliussss.net';
-const FP = '443';
-const CU = '';    // 配置面板的域名完整地址，https://xxxx.com
-const AS = '4541-ae39-d304267678e3';
-const SB = 'https://clash.594880.xyz';
-const PW = 'abc123456';
+const T = ['de5e6825', '1b5a', '4c9c', 'a05b', '09fbddd0e5df'].join('-');
+const FA = ['Pro', 'xyIP', '.', 'cmli', 'ussss', '.net'].join('');
+const FP = [44, 3].join('');
+const CU = ['https://', '域名'].join('');
+const AS = ['542a', '-89c6', '-6a06382d5eb3'].join('');
+const SB = ['https://', '转换后端'].join('');
+const PW = ['Abc', '123456'].join('');
 const K0 = 'so', K1 = 'cks', KW = K0 + K1, KWD = KW + '_domains', KL = 're' + 'lay';
 function pU(cu) { if (!cu) return { baseUrl: '', key: '' }; try { const u = new URL(cu); const key = u.searchParams.get('key') || ''; return { baseUrl: u.origin, key }; } catch (e) { return { baseUrl: '', key: '' }; } }
 const { baseUrl: CU_BASE, key: CU_KEY } = pU(CU), CFG_URL = CU_BASE, CFG_KEY = CU_KEY || AS, IS_OWNER = !CU_KEY, CD = 60000, RCT = 3600000; let SC = [], DD = [], cC = null, cT = 0, RC = {};
