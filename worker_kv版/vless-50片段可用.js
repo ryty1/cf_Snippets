@@ -2,7 +2,7 @@ import { connect } from 'cloudflare:sockets';
 const T = 'f781f727-7127-49f7-9910-228e81519e90';
 const FA = 'ProxyIP.cmliussss.net';
 const FP = '443';
-const CU = '';                      // config-manager-kv.js 的部署地址（如 https://cfg.example.com）
+const CU = '' as string;            // config-manager-kv.js 的部署地址（如 https://cfg.example.com）
 const AS = 'snip-sync-2024';        // 与 config-manager-kv.js 中的密钥保持一致
 const CD = 60000;                   // socks 配置缓存时长(ms)，0 = 每次连接都回管理端取
 function genSocksKey(idx) { const src = T + '-socks-' + idx, chars = 'ABCDEFGHJKLMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz23456789'; let hash = 0; for (let i = 0; i < src.length; i++) { hash = ((hash << 5) - hash) + src.charCodeAt(i); hash = hash & hash; } let key = ''; for (let i = 0; i < 8; i++) { hash = Math.abs((hash * 1103515245 + 12345) & 0x7fffffff); key += chars[hash % chars.length]; } return key; }
