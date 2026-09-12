@@ -32,9 +32,9 @@
 1. 进入 `Workers`
 2. 选择 `hello，word `
 3. 为 Worker 命名（如：`config-manager`）
-4. 点击 `Deploy` 创建
-5. 点击 `Edit code`，将 `config-manager-kv.js` 的内容粘贴进去
-6. 点击 `Deploy` 保存
+4. 点击 `部署` 创建
+5. 点击 `编辑代码`，将 `config-manager-kv.js` 的内容粘贴进去
+6. 点击 `部署` 保存
 
 #### 步骤三：绑定 KV 变量
 
