@@ -1,6 +1,6 @@
 > **【说明】**：脚本非原创，修改自 [老王](https://github.com/eooce/Cloudflare-proxy) 和 [CM大佬](https://github.com/cmliu/CF-Workers-BPSUB)脚本，自用修改，后期经 [饭奇骏](https://github.com/frankiejun) 大佬优化！感谢各位大佬的项目奉献！
 
-> **【用途】**：实现 snip前置 + 垃圾设备socks落地，让垃圾机器直连起死回生。节点落地配置加密，分享订阅给他人无惧socks信息泄露！
+> **【用途】**：实现 snip前置 + 垃圾设备socks落地，让直连垃圾机器起死回生。节点落地配置加密，分享订阅给他人无惧socks信息泄露！
 ---
 
 # [Cloudflare Workers KV](https://github.com/ryty1/cf_Snippets/tree/main/worker_kv%E7%89%88) 配置管理系统
