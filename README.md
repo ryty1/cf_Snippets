@@ -22,8 +22,8 @@
 #### 步骤一：创建 KV 命名空间
 
 1. 登录 [Cloudflare Dashboard](https://dash.cloudflare.com)
-2. 进入 `存储与数据库` → `KV`
-3. 点击 `Create a namespace`
+2. 进入 `存储与数据库` → `Workers KV`
+3. 点击 `Create instance`
 4. 命名空间名称填写：`CONFIG_KV`（或其他名称）
 5. 点击 `Add` 创建
 
