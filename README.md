@@ -25,7 +25,7 @@
 2. 进入 `存储与数据库` → `Workers KV`
 3. 点击 `Create instance`
 4. 命名空间名称填写：`CONFIG_KV`（或其他名称）
-5. 点击 `Add` 创建
+5. 点击 `创建` 
 
 #### 步骤二：创建 Worker
 
