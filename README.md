@@ -9,7 +9,7 @@
 
 | 文件 | 部署方式 | 说明 |备注|
 |------|----------|------|------|
-| [config-manager-kv](https://github.com/ryty1/cf_Snippets/blob/main/worker_kv%E7%89%88/config-manager-kv.js)| Workers | 配置管理中心，需绑定 KV |可多片段管理，配置管理及分享，订阅管理|
+| [config-manager-kv](https://github.com/ryty1/cf_Snippets/blob/main/worker_kv%E7%89%88/config-manager-kv.js)| Workers | 配置管理中心，需绑定 KV |多片段配置管理及分享，订阅输出|
 | [vless-50片段](https://github.com/ryty1/cf_Snippets/blob/main/worker_kv%E7%89%88/vless-50片段可用.js) | Snippets (高级) | VLESS 订阅服务 |仅高级版可用|
 
 
