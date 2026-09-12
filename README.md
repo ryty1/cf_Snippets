@@ -167,26 +167,19 @@ const AS = '24bb-49aa-9c37';                        // 与 config-manager 中的
    
 ---
 
-<img width="1910" height="700" alt="image" src="https://github.com/user-attachments/assets/29d16ba0-9c27-481c-8e23-f3aef696cea6" />
-
-
----
-
-<img width="1910" height="810" alt="image" src="https://github.com/user-attachments/assets/723e7c60-9845-4363-b227-5983860062b7" />
-
+<img width="1319" height="492" alt="1" src="https://github.com/user-attachments/assets/220b92f5-365e-44ff-9292-292fbbc3884e" />
 
 ---
 
-<img width="1910" height="659" alt="image" src="https://github.com/user-attachments/assets/b33bdb2a-5922-4429-a8c8-17bd861c49f5" />
+<img width="1269" height="704" alt="2" src="https://github.com/user-attachments/assets/4ba6952a-fdc0-4208-9aaf-0b53314c1748" />
 
 ---
 
-<img width="1910" height="487" alt="image" src="https://github.com/user-attachments/assets/022fb0f4-f568-4bb0-9a2e-7f8fec9b7797" />
+<img width="1315" height="866" alt="3" src="https://github.com/user-attachments/assets/7c8a4b9b-1c3b-4a31-877e-a9bb4e5446ed" />
 
 ---
 
-<img width="1910" height="500" alt="image" src="https://github.com/user-attachments/assets/3d81a95a-b894-47be-8364-b12fc8622ee2" />
-
+<img width="1364" height="809" alt="4" src="https://github.com/user-attachments/assets/81b8c69b-73d7-48c1-90a5-d72f30c427f7" />
 
 ---
 
