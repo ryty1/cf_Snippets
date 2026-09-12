@@ -86,51 +86,18 @@ const AS = '24bb-49aa-9c37';                        // 与 config-manager 中的
 
 ---
 
-### 3️⃣ 部署 shadowsocks-kv.js (Snippets 片段)「不推荐，不适配了」
-
-Shadowsocks 代理订阅服务，从 config-manager 同步配置。
-
-#### 步骤一：创建 Snippet 片段
-
-1. 选择你的域名
-2. 进入 `Rules` → `Snippets`
-3. 点击 `Create snippet`
-4. 命名片段（如：`shadowsocks-kv`）
-5. 将 `shadowsocks-kv.js` 的内容粘贴进去
-
-#### 步骤二：修改配置
-
-```javascript
-let T = '5dc15e15-f285-4a9d-959b-0e4fbdd77b63';    // Token (务必修改)
-const CU = '';                                      // config-manager-kv.js 的部署地址
-const AS = '24bb-49aa-9c37';                        // 与 config-manager 中的密钥一致
-const SB = '';                                      // clash 订阅后端地址
-const PW = 'abc123456';                             // 密码
-```
-
----
-
 ## 🔗 配置同步
 
 配置完成后，需要将各服务地址填写到对应位置：
 
-1. **config-manager-kv.js** 中：
-   - `VU`：填写 vless-kv.js 部署完成后的访问地址
-   - `SU`：填写 shadowsocks-kv.js 部署完成后的访问地址
-
-2. **vless-kv.js** 和 **shadowsocks-kv.js** 中：
+1. **vless-kv.js** 中：
    - `CU`：填写 config-manager-kv.js 部署完成后的访问地址
-   - `SU`：填写 分享配置链接（完整 URL 含密钥）
-
-3. **确保 `AS` 密钥一致**：三个文件中的 `AS` 验证密钥必须相同
+   - 
+2. **确保 `AS` 密钥一致**：三个文件中的 `AS` 验证密钥必须相同
 
 ---
 
 ## 📖 使用说明
-
-### 访问配置管理
-
-从 vless-kv 或 shadowsocks-kv 的页面点击「配置」按钮进入。
 
 ### 管理功能
 
@@ -143,11 +110,9 @@ const PW = 'abc123456';                             // 密码
 
 ### 订阅地址
 
-部署完成后，通过对应服务的根路径生成订阅：
-- **VLESS 订阅**：`https://your-vless-domain.com/{uuid前缀}`
-- **Shadowsocks 订阅**：`https://your-ss-domain.com/sub/{token前缀}`
+部署完成后，访问 config-manager-kv.js 项目域名登录面板配置！
 
-支持 `?clash` 参数获取 Clash 格式订阅。
+支持 `Xray` `?clash` `sinbox` 格式订阅。
 
 ---
 
