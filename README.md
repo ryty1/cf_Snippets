@@ -54,15 +54,14 @@
 
 ```javascript
 const PW = 'abc123456';            // 登录密码
-const AS = '24bb-49aa-9c37';       // 调用验证密钥（务必修改）
-const VU = '';                     // vless-kv.js 的部署地址
-const SU = '';                     // shadowsocks-kv.js 的部署地址
+const AS = '24bb-49aa-9c37';       // 与 vless-kv.js 中的密钥一致
+const SB = '';                     // Clash订阅转换地址
 
 ```
 
 ---
 
-### 2️⃣ 部署 vless-kv.js (Snippets 片段)
+### 2️⃣ 部署 vless-kv.js (Snippets 片段)「推荐部署」
 
 VLESS 代理订阅服务，从 config-manager 同步配置。
 
@@ -82,15 +81,12 @@ const T = 'e4d59882-dbac-426b-ae64-5abed091b6be';  // UUID (务必修改)
 const FA = 'ProxyIP.cmliussss.net';                 // ProxyIP 地址
 const FP = '443';                                   // ProxyIP 端口
 const CU = '';                                      // config-manager-kv.js 的部署地址
-const SU = '';                                      // 分享链接（完整 URL 含密钥）
 const AS = '24bb-49aa-9c37';                        // 与 config-manager 中的密钥一致
-const SB = '';                                      // clash 订阅后端地址
-const PW = 'abc123456';                             // 密码(务必修改)
 ```
 
 ---
 
-### 3️⃣ 部署 shadowsocks-kv.js (Snippets 片段)
+### 3️⃣ 部署 shadowsocks-kv.js (Snippets 片段)「不推荐，不适配了」
 
 Shadowsocks 代理订阅服务，从 config-manager 同步配置。
 
