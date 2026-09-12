@@ -9,8 +9,8 @@
 
 | 文件 | 部署方式 | 说明 |备注|
 |------|----------|------|------|
-| [config-manager-kv](https://github.com/ryty1/cf_Snippets/blob/main/worker_kv%E7%89%88/config-manager-kv.js)| Workers | 配置管理中心，需绑定 KV |可多片段可共用或分享配置|
-| [vless-50片段](https://github.com/ryty1/cf_Snippets/blob/main/worker_kv%E7%89%88/vless-50片段可用.js) | Snippets (高级) | VLESS 订阅服务 |仅高级版可用，socks有效检测，基础节点|
+| [config-manager-kv](https://github.com/ryty1/cf_Snippets/blob/main/worker_kv%E7%89%88/config-manager-kv.js)| Workers | 配置管理中心，需绑定 KV |可多片段管理，分享配置，订阅管理|
+| [vless-50片段](https://github.com/ryty1/cf_Snippets/blob/main/worker_kv%E7%89%88/vless-50片段可用.js) | Snippets (高级) | VLESS 订阅服务 |仅高级版可用|
 
 
 ## 🚀 快速部署
